@@ -15,7 +15,7 @@
   \*****************************/
 /***/ (() => {
 
-eval("console.log(\"yo\")\n\n//# sourceURL=webpack://webgame/./client/src/index.js?");
+eval("window.onload = function() { // enlever watermark\r\n    var shadowRoot = document.querySelector('spline-viewer').shadowRoot;\r\n    shadowRoot.querySelector('#logo').remove();\r\n}\r\n\r\n\n\n//# sourceURL=webpack://peterpushcode/./client/src/index.js?");
 
 /***/ })
 
